@@ -20,6 +20,9 @@ body{
 a{
     text-decoration: none;
 }
+ul li{
+    list-style: none;
+}
 .text-light{
     color: #fff;
 }
@@ -50,6 +53,31 @@ a{
     border-color: #fff;
 }
 /* ################## Custom Style End################### */
+/* ############## Navbar ############### */
+.navbar{
+    background: #26126b;
+}
+.navbar-content{
+    height: 60px;
+}
+.company-name h1{
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.navbar-items{
+    width: 50%;
+}
+.navbar-items li a{
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #fff;
+   
+}
+.navbar-items li a:hover{
+    border-bottom: 2px solid #fff;
+}
+/* ############## Navbar End ############### */
 /* ############## Header ################ */
 .header{
     background-image: url("../images/background_1.jpg");
