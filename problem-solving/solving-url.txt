@@ -1,0 +1,1 @@
+css filter: make color image with transparency white ===> https://stackoverflow.com/questions/24224112/css-filter-make-color-image-with-transparency-white
