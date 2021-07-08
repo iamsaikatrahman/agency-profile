@@ -40,6 +40,9 @@ ul li {
 .justify-content-between {
   justify-content: space-between;
 }
+.justify-content-evenly {
+  justify-content: space-evenly;
+}
 .align-items {
   align-items: center;
 }
@@ -202,3 +205,26 @@ ul li {
   margin: 2rem 0;
 }
 /* ############### Solution End ################ */
+/* ############# Counter #################### */
+.counter {
+  background-image: url("../images/background_1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.counter-content {
+  height: 200px;
+  color: #fff;
+}
+.counter-box {
+  text-align: center;
+}
+.counter-box h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+.counter-box p {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+/* ############# Counter End #################### */
