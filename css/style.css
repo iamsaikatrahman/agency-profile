@@ -11,7 +11,7 @@ html {
 }
 body {
   font-family: "Poppins", sans-serif;
-  height: 2000px;
+  height: 8000px;
 }
 .container {
   max-width: 1200px;
@@ -264,3 +264,34 @@ ul li {
   margin: 5rem auto;
 }
 /* ############## Gallary End #################### */
+/* ############# Client ################ */
+.clietn-text-box {
+  text-align: center;
+  padding: 3rem;
+}
+.clietn-text-box h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+.clietn-text-box p {
+  font-size: 1.8rem;
+  letter-spacing: 0.15rem;
+  font-weight: 400;
+  margin: 5rem 0;
+}
+.client-logo-box {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-row-gap: 5rem;
+}
+.client-logo {
+  margin: auto;
+}
+.client-logo:hover {
+  background: #fff;
+}
+.client-logo:hover img {
+  filter: brightness(3) invert(1);
+}
+/* ############# Client End ################ */
