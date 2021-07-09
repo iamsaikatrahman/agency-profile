@@ -228,3 +228,39 @@ ul li {
   font-weight: 400;
 }
 /* ############# Counter End #################### */
+/* ############## Gallary #################### */
+.gallary-content {
+  padding: 5rem 0;
+}
+.gallary-text-box {
+  text-align: center;
+  padding: 2rem 0;
+}
+.gallary-text-box h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+.gallary-text-box p {
+  font-size: 1.8rem;
+  letter-spacing: 0.15rem;
+  text-overflow: ellipsis;
+  margin: 5rem 10rem;
+}
+.gallary-image-box {
+  width: 100%;
+  display: flex;
+}
+.gallary-image-box img {
+  width: 25%;
+}
+.gallary-image-box img:hover {
+  filter: saturate(20%);
+}
+.gallary-content button {
+  border: none;
+  outline: none;
+  display: block;
+  margin: 5rem auto;
+}
+/* ############## Gallary End #################### */
