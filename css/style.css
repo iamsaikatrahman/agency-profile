@@ -361,3 +361,28 @@ ul li {
   filter: brightness(1) contrast(50%);
 }
 /* ############## News End ################# */
+/* ############## proposoal ################## */
+.proposal-content {
+  width: 80%;
+  margin: 0 auto;
+  padding: 3rem 3rem;
+  background: #fff;
+  border-radius: 2.5rem;
+  box-shadow: -3px 5px 13px 0 #25126b54;
+}
+.proposal-text {
+  width: 50%;
+}
+.proposal-text h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+}
+.proposal-text p {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.proposal-content a {
+  height: 50%;
+}
+/* ############## proposoal end ################## */
