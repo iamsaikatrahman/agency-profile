@@ -255,7 +255,8 @@ ul li {
   width: 25%;
 }
 .gallary-image-box img:hover {
-  filter: saturate(20%);
+  /* filter: saturate(20%); */
+  filter: brightness(1) contrast(60%);
 }
 .gallary-content button {
   border: none;
@@ -295,3 +296,68 @@ ul li {
   filter: brightness(3) invert(1);
 }
 /* ############# Client End ################ */
+/* ############## News ################# */
+.news-section {
+  padding: 10rem 0;
+}
+.new-title {
+  text-align: center;
+}
+.new-title h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+.new-title p {
+  font-size: 1.8rem;
+  letter-spacing: 0.15rem;
+  font-weight: 400;
+  margin: 5rem 0;
+}
+.artical-box {
+  width: 30%;
+}
+.artical-box img {
+  width: 100%;
+  height: 250px;
+  transition: filter 0.3s ease;
+}
+
+.artical-text-box {
+  margin-top: -5px;
+  border: 1px solid #e9e7f0;
+  padding: 2rem;
+}
+.artical-text-box h3 {
+  font-size: 1.9rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  margin: 2rem 0;
+}
+.artical-text-box small {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.artical-text-box p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  line-height: 2.5rem;
+  margin: 2rem 0;
+}
+.artical-text-box a {
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+}
+.artical-box:hover .artical-text-box h3 {
+  color: #26126b;
+}
+.artical-box:hover .artical-text-box a {
+  color: #26126b;
+}
+.artical-box:hover img {
+  filter: brightness(1) contrast(50%);
+}
+/* ############## News End ################# */
