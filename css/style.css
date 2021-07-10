@@ -465,3 +465,67 @@ ul li {
   width: 100%;
 }
 /* ############## About header End ################ */
+/* ############## Work with us ############## */
+.work-with-us-content {
+  padding: 5rem 0;
+}
+.work-with-us-video {
+  width: 50%;
+}
+.work-with-us-video video {
+  width: 90%;
+}
+.work-with-us-text-box {
+  width: 50%;
+  margin: auto;
+  padding: 0 5rem;
+}
+.work-with-us-text-box h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+.work-with-us-text-box p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  line-height: 2rem;
+  margin: 2.5rem 0;
+  text-align: justify;
+}
+.work-with-us-text-box a {
+  margin-right: 2rem;
+}
+/* ############## Work with us End ############## */
+/* ############# Our success ################ */
+.success-content {
+  padding: 5rem 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sucess-title {
+  text-align: center;
+}
+.sucess-title h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+.sucess-title p {
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+  font-weight: 400;
+  margin: 3rem 5rem;
+}
+.success-video figcaption {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+}
+.success-video figcaption a {
+  color: red;
+}
+/* ############# Our success End ################ */
